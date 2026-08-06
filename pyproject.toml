@@ -1,0 +1,22 @@
+[project]
+name = "mypythonproject"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "koreanize-matplotlib>=0.1.1",
+    "matplotlib>=3.11.1",
+    "pandas>=3.0.5",
+    "seaborn>=0.13.2",
+    "setuptools>=83.0.0",
+    "streamlit>=1.61.1",
+]
+
+[project.scripts]
+mypythonproject = "mypythonproject:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"
