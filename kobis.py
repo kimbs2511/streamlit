@@ -4,7 +4,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import koreanize_matplotlib
 # 1. import 추가
-from dotenv import load_dotenv
 from openai import OpenAI
 from matplotlib.ticker import MaxNLocator
 import numpy as np
