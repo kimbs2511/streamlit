@@ -4,10 +4,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import koreanize_matplotlib
 # 1. import 추가
-from openai import OpenAI
 from matplotlib.ticker import MaxNLocator
 import numpy as np
-import requests
 
 # 페이지 설정
 st.set_page_config(page_title="영화산업의 현재", page_icon="🎬", layout="wide")
