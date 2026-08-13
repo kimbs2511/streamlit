@@ -4,17 +4,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import koreanize_matplotlib
 # 1. import 추가
-import os
 from dotenv import load_dotenv
 from openai import OpenAI
 from matplotlib.ticker import MaxNLocator
 import numpy as np
 import requests
-
-
-# load_dotenv() 실행
-load_dotenv()
-api_key = os.getenv("OPENAI_API_KEY")
 
 # 페이지 설정
 st.set_page_config(page_title="영화산업의 현재", page_icon="🎬", layout="wide")
